@@ -1,0 +1,736 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  
+}
+
+
+
+.container{
+        height: 656px;
+        width: 505px;
+        left: 515px;
+        top: 28px;
+        border-radius: 40px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 2px 2px 32px grey;
+}
+
+h1{
+
+    text-align: center;
+    top:50px;
+    position:relative;
+    color:black;
+}
+
+p{
+    position: relative;
+    top: 68px;
+    left: 94px;
+    color: gray;
+}
+
+form{
+
+    display:flex;
+    flex-direction: column;
+    
+}
+
+form input{
+
+    color:gray;
+
+}
+
+#name{
+    position: relative;
+    display: flex;
+    left: 90px;
+    top: 100px;
+    height: 45px;
+    width: 328px;
+    border-radius: 50px;
+    border-color: orangered;
+    padding: 0 65px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+#email{
+    position: relative;
+    display: flex;
+    left: 90px;
+    top: 106px;
+    height: 45px;
+    width: 328px;
+    border-radius: 50px;
+    border-color: orangered;
+    padding: 0 65px;
+    font-weight: 540;
+    font-size: 16px;
+}
+
+#ph-no{
+    position: relative;
+    display: flex;
+    left: 90px;
+    top: 112px;
+    height: 45px;
+    width: 328px;
+    border-radius: 50px;
+    border-color: orangered;
+    padding: 0 65px;
+    font-weight: 540;
+    font-size: 16px;
+}
+
+/******************************************/
+
+/* to use number only  */
+
+
+/*chrome*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/********************************************/
+
+
+#pass{
+    position: relative;
+    display: flex;
+    left: 90px;
+    top: 120px;
+    height: 45px;
+    width: 328px;
+    border-radius: 50px;
+    border-color: orangered;
+    padding: 0 65px;
+    font-weight: 540;
+    font-size: 16px;
+}
+
+#c-pass{
+    position: relative;
+    display: flex;
+    left: 90px;
+    top: 128px;
+    height: 45px;
+    width: 328px;
+    border-radius: 50px;
+    border-color: orangered;
+    padding: 0 65px;
+    font-weight: 540;
+    font-size: 16px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color:tomato;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    box-shadow: 1px 1px 6px grey;
+    
+
+}
+
+#already-login{
+
+    position: absolute;
+    top: 602px;
+    left: 117px;
+    color: orangered;
+    font-weight: 550;
+    width: 200px;
+
+}
+
+a{
+    position: absolute;
+    top: 603px;
+    left: 295px;
+    color:blue;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+form i {
+    color:orangered;
+}
+
+#u-icon{
+
+    position: relative;
+    top: 68px;
+    left: 120px;
+}
+
+#email-icon {
+   
+    position: relative;
+    top: 75px;
+    left: 120px;
+
+}
+
+#ph-icon{
+
+    position: relative;
+    top: 81px;
+    left: 120px;
+}
+
+#pass-icon{
+ 
+    position: relative;
+    top: 88px;
+    left: 120px;
+
+}
+
+#c-pass-icon{
+  
+    position: relative;
+    top: 95px;
+    left: 120px;
+
+}
+
+span{
+
+    color:red;
+    font-weight:500;
+}
+
+#n-error{
+
+    position: relative;
+    top: 102px;
+    left: 99px;
+}
+
+#e-error{
+    position: relative;
+    top: 108px;
+    left: 99px;
+}
+
+#ph-error{
+
+    position: relative;
+    top: 116px;
+    left: 103px;
+}
+
+#pass-error{
+    position:relative;
+    top:123px;
+    left:103px;
+}
+
+
+#c-pass-error{
+    position:relative;
+    top:136px;
+    left:103px;
+}
+
+
+/* for responsive */
+
+@media only screen and (max-width:600px) {
+
+    .container{
+
+        left: 27px;
+        top: 105px;
+        width: 388px;
+    
+    }
+
+    p{
+
+        left:29px;
+    }
+
+  #name{
+      left:31px;
+  }
+
+  #email{
+    left:31px;
+}
+
+#ph-no{
+    left:31px;
+}
+
+#pass{
+    left:31px;
+}
+
+#c-pass{
+    left:31px;
+}
+
+button{
+    left:90px;
+}
+
+#already-login{
+
+    left:55px;
+}
+
+a{
+    left:236px;
+}
+
+#u-icon{
+
+    left:66px;
+}
+
+#email-icon{
+
+    left:66px;
+}
+
+#ph-icon{
+
+    left:66px;
+}
+
+#pass-icon{
+
+    left:66px;
+}
+
+#c-pass-icon{
+
+    left:66px;
+}
+
+#n-error{
+    left:48px;
+}
+
+#e-error{
+    left:48px;
+}
+
+#ph-error{
+    left:48px;
+}
+
+#pass-error{
+    left:48px;
+}
+
+#c-pass-error{
+    left:48px;
+}
+
+}
+
+
+    
+@media only screen and (min-width:600px) {
+
+    .container{
+
+        left: 110px;
+        top: 71px;
+        width: 388px;
+    
+    }
+
+    p{
+
+        left:29px;
+    }
+
+  #name{
+      left:31px;
+  }
+
+  #email{
+    left:31px;
+}
+
+#ph-no{
+    left:31px;
+}
+
+#pass{
+    left:31px;
+}
+
+#c-pass{
+    left:31px;
+}
+
+button{
+    left:90px;
+}
+
+#already-login{
+
+    left:55px;
+}
+
+a{
+    left:236px;
+}
+
+#u-icon{
+
+    left:66px;
+}
+
+#email-icon{
+
+    left:66px;
+}
+
+#ph-icon{
+
+    left:66px;
+}
+
+#pass-icon{
+
+    left:66px;
+}
+
+#c-pass-icon{
+
+    left:66px;
+}
+
+#n-error{
+    left:48px;
+}
+
+#e-error{
+    left:48px;
+}
+
+#ph-error{
+    left:48px;
+}
+
+#pass-error{
+    left:48px;
+}
+
+#c-pass-error{
+    left:48px;
+}
+
+}
+
+
+@media only screen and (min-width:768px) {
+
+    .container{
+        left: 191px;
+        top: 71px;
+        width: 388px;
+    
+    }
+
+    p{
+
+        left:29px;
+    }
+
+  #name{
+      left:31px;
+  }
+
+  #email{
+    left:31px;
+}
+
+#ph-no{
+    left:31px;
+}
+
+#pass{
+    left:31px;
+}
+
+#c-pass{
+    left:31px;
+}
+
+button{
+    left:90px;
+}
+
+#already-login{
+
+    left:55px;
+}
+
+a{
+    left:236px;
+}
+
+#u-icon{
+
+    left:66px;
+}
+
+#email-icon{
+
+    left:66px;
+}
+
+#ph-icon{
+
+    left:66px;
+}
+
+#pass-icon{
+
+    left:66px;
+}
+
+#c-pass-icon{
+
+    left:66px;
+}
+
+#n-error{
+    left:48px;
+}
+
+#e-error{
+    left:48px;
+}
+
+#ph-error{
+    left:48px;
+}
+
+#pass-error{
+    left:48px;
+}
+
+#c-pass-error{
+    left:48px;
+}
+
+}
+
+@media only screen and (min-width:992px) {
+
+    .container{
+        left: 318px;
+        top: 71px;
+        width: 388px;
+    
+    }
+
+    p{
+
+        left:29px;
+    }
+
+  #name{
+      left:31px;
+  }
+
+  #email{
+    left:31px;
+}
+
+#ph-no{
+    left:31px;
+}
+
+#pass{
+    left:31px;
+}
+
+#c-pass{
+    left:31px;
+}
+
+button{
+    left:90px;
+}
+
+#already-login{
+
+    left:55px;
+}
+
+a{
+    left:236px;
+}
+
+#u-icon{
+
+    left:66px;
+}
+
+#email-icon{
+
+    left:66px;
+}
+
+#ph-icon{
+
+    left:66px;
+}
+
+#pass-icon{
+
+    left:66px;
+}
+
+#c-pass-icon{
+
+    left:66px;
+}
+
+#n-error{
+    left:48px;
+}
+
+#e-error{
+    left:48px;
+}
+
+#ph-error{
+    left:48px;
+}
+
+#pass-error{
+    left:48px;
+}
+
+#c-pass-error{
+    left:48px;
+}
+
+}
+
+@media only screen and (min-width:1200px) {
+
+    .container{
+        left: 592px;
+        top: 30px;
+        width: 388px;
+    
+    }
+
+    p{
+
+        left:29px;
+    }
+
+  #name{
+      left:31px;
+  }
+
+  #email{
+    left:31px;
+}
+
+#ph-no{
+    left:31px;
+}
+
+#pass{
+    left:31px;
+}
+
+#c-pass{
+    left:31px;
+}
+
+button{
+    left:90px;
+}
+
+#already-login{
+
+    left:55px;
+}
+
+a{
+    left:236px;
+}
+
+#u-icon{
+
+    left:66px;
+}
+
+#email-icon{
+
+    left:66px;
+}
+
+#ph-icon{
+
+    left:66px;
+}
+
+#pass-icon{
+
+    left:66px;
+}
+
+#c-pass-icon{
+
+    left:66px;
+}
+
+#n-error{
+    left:48px;
+}
+
+#e-error{
+    left:48px;
+}
+
+#ph-error{
+    left:48px;
+}
+
+#pass-error{
+    left:48px;
+}
+
+#c-pass-error{
+    left:48px;
+}
+
+}
+
+

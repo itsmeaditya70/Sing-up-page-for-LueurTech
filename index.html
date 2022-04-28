@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sing up | LueurTech</title>
+    
+   
+</head>
+<body>
+    
+    <div class="container">
+
+         <!-- for heading -->
+
+         <h1>Let's Get Started </h1>
+
+         <p>Create an account to LueurTech to get all features</p>
+
+         <!-- for form-elements -->
+
+         <form action="" onsubmit="return validateForm()">
+
+            <!-- for name -->
+            <div>
+                <input type="text" name="" id="name" placeholder="User name">
+                <i class="fa-solid fa-user" id="u-icon"></i>
+                <span id="n-error"></span>
+            </div>
+
+             <!-- for email -->
+             <div>
+                <input type="email" name="" id="email" placeholder="Email">
+                <i class="fa-solid fa-envelope" id="email-icon"></i>
+                <span id="e-error"></span>
+            </div>
+
+             <!-- for phone no -->
+             <div>
+                <input type="number" name="" id="ph-no" placeholder="Phone no">
+                <i class="fa-solid fa-mobile" id="ph-icon"></i>
+                <span id="ph-error"></span>
+            </div>
+
+             <!-- for password  -->
+             <div>
+                <input type="password" name="" id="pass" placeholder="Password">
+                <i class="fa-solid fa-lock" id="pass-icon"></i>
+                <span id="pass-error"></span>
+            </div>
+
+             <!-- for confirm password  -->
+             <div>
+                <input type="password" name="" id="c-pass" placeholder="Confirm Password">
+                <i class="fa-solid fa-lock" id="c-pass-icon"></i>
+                <span id="c-pass-error"></span>
+            </div>
+
+
+            
+        <!-- for already login -->
+
+        <p id="already-login">Already have an accout?</p> <a href="#">Login here</a>
+        
+                 <!-- for button  -->
+                <button type="submit">CREATE</button>
+             
+         </form>
+
+        
+    </div>
+</div>
+
+<script src="validation.js"></script>
+</body>
+</html>
